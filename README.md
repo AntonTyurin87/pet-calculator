@@ -16,9 +16,9 @@ ____
 </tr>
 </table>
 
-#####<c>[План работы по проекту](https://github.com/AntonTyurin87/pet-calculator/blob/main/plan.md) </c>
+<c>[План работы по проекту](https://github.com/AntonTyurin87/pet-calculator/blob/main/plan.md) </c>
 
-#####<c>[Дневники проекта](https://github.com/AntonTyurin87/pet-calculator/blob/main/diary.md) </c>
+<c>[Дневники проекта](https://github.com/AntonTyurin87/pet-calculator/blob/main/diary.md) </c>
 
 ____
 

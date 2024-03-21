@@ -1,3 +1,5 @@
+<a href="https://codeclimate.com/github/AntonTyurin87/pet-calculator/maintainability"><img src="https://api.codeclimate.com/v1/badges/19ddfd63195ee3dff4f4/maintainability" /></a>
+
 # pet-calculator
 ###### учебный проект
 ____

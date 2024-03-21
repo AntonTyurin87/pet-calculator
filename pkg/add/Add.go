@@ -5,39 +5,36 @@
 package add
 
 import (
-	"fmt"
-	"os"
-	"strconv"
-	"strings"
-
+	"pet_calculator/pkg/checkfunc"
 	"pet_calculator/pkg/decor"
 )
 
 func Add() {
 
-	var result float64
-	var input, answer string
+	var result, number float64
+	var answer string
 
+	//Переменная для работы цикла вычислений
+	repeat := true
+
+	//Значение ответа по умолчанию
 	answer = "0"
 
 	decor.Greetings("Cуммирование чисел")
 
-	for input != "Q" {
-		fmt.Printf("Текущий результат %s\n", answer)
-		fmt.Print("Введите число и нажмите Enter: ")
-		fmt.Fscan(os.Stdin, &input)
+	//Цикл для повторения суммирования
+	for repeat {
+		decor.AnswerNow(answer)
 
-		input = strings.ReplaceAll(input, ",", ".")
-
-		number, _ := strconv.ParseFloat(input, 64)
+		number, repeat = checkfunc.NumCheck()
 		result += number
 
-		answer = strconv.FormatFloat(result, 'g', -1, 64)
-		answer = strings.TrimRight(answer, "0")
+		answer = decor.AnswerTrim(result)
 
-		fmt.Println("Для завершения введите Q и нажмите Enter без числа")
-		fmt.Println("**************************************************")
+		decor.CompleteAction()
 	}
 
 	decor.Parting(answer)
+
+	//os.Exit(0)
 }

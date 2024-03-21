@@ -1,10 +1,10 @@
-// decorPattern -  возвращает строку из заданного числа подстрок
+// DecorPattern -  возвращает строку из заданного числа подстрок
 package decor
 
-func decorPattern(decorElemetn string, decoreLen int) string {
+func DecorPattern(DecorElemetn string, DecoreLen int) string {
 	var resultString string
-	for i := decoreLen; i > 0; i-- {
-		resultString += decorElemetn
+	for i := DecoreLen; i > 0; i-- {
+		resultString += DecorElemetn
 	}
 	return resultString
 }

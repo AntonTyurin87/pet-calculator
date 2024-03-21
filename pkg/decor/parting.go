@@ -10,7 +10,7 @@ func Parting(answer string) {
 	var delimetr, answerString, resultString string
 
 	//Верхний и нижний разделитель
-	delimetr = decorPattern(DecorElemetn, DecoreLen) + "\n"
+	delimetr = DecorPattern(DecorElemetn, DecoreLen) + "\n"
 
 	//Строка с результатом операции
 	answerString = fmt.Sprintf("Суммирование завершено\n\nТекущий результат %s\n", answer)

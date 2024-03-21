@@ -5,6 +5,7 @@ import (
 	"pet_calculator/internal"
 )
 
+// Добавл не нужный комментарий
 func main() {
 
 	for internal.Run() {

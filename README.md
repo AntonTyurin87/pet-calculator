@@ -1,6 +1,6 @@
-<a href="https://codeclimate.com/github/AntonTyurin87/pet-calculator/maintainability"><img src="https://api.codeclimate.com/v1/badges/19ddfd63195ee3dff4f4/maintainability" /></a>
 ![Go Report](https://goreportcard.com/badge/github.com/AntonTyurin87/pet-calculator) ![Repository Top Language](https://img.shields.io/github/languages/top/AntonTyurin87/pet-calculator) ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/AntonTyurin87/pet-calculator)
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/19ddfd63195ee3dff4f4/maintainability)](https://codeclimate.com/github/AntonTyurin87/pet-calculator/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/19ddfd63195ee3dff4f4/test_coverage)](https://codeclimate.com/github/AntonTyurin87/pet-calculator/test_coverage)
 
 ![Github Repository Size](https://img.shields.io/github/repo-size/AntonTyurin87/pet-calculator)
 
